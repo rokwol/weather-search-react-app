@@ -1,1 +1,11 @@
+body {
+  text-align: center;
+}
 
+.Weather {
+  border: 1px solid black;
+}
+
+.Weather li {
+  list-style: none;
+}
