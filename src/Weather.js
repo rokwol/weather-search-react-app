@@ -11,13 +11,14 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city"
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
             <input
               type="Submit"
               value="Search"
-              className="btn btn-primary"
+              className="btn btn-primary w-100"
               autoComplete="off"
             />
           </div>
@@ -32,13 +33,20 @@ export default function Weather() {
 
       <div className="row">
         <div className="col-6">
-          <img
-            src="http://openweathermap.org/img/wn/50n@2x.png"
-            alt="Mist icon"
-          />
-          4 °C
+          <div className="clearfix">
+            <span className="float-left">
+              <img
+                src="http://openweathermap.org/img/wn/50n@2x.png"
+                alt="Mist icon"
+              />
+            </span>
+            <span className="float-left">
+              <span className="temperature">4 </span>
+              <span className="unit">°C </span>
+            </span>
+          </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 mt-2">
           <ul>
             <li> Wind: 4 km/h</li>
             <li> Humidity: 95%</li>
