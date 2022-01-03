@@ -1,3 +1,11 @@
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+html {
+  min-height: 100%;
+}
+
 .App {
   margin: 0 auto;
   max-width: 600px;
@@ -5,4 +13,8 @@
 
 .App footer {
   font-size: 13px;
+}
+
+.App a {
+  color: #3dbbe2;
 }

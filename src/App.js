@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <footer>
+        <small>
           This project was coded by Roksolana Woloszyn and is open-sourced{" "}
           <a
             href="https://github.com/rokwol/weather-search-react-app"
@@ -15,7 +15,8 @@ export default function App() {
           >
             on Github.
           </a>
-        </footer>
+        </small>
+        <footer></footer>
       </div>
     </div>
   );

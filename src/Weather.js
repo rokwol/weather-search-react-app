@@ -18,7 +18,7 @@ export default function Weather() {
             <input
               type="Submit"
               value="Search"
-              className="btn btn-primary w-100"
+              className="btn btn-outline-info w-100"
               autoComplete="off"
             />
           </div>
@@ -41,7 +41,7 @@ export default function Weather() {
               />
             </span>
             <span className="float-left">
-              <span className="temperature">4 </span>
+              <span className="temperature">4</span>
               <span className="unit">°C </span>
             </span>
           </div>
