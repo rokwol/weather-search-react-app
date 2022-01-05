@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Toronto" />
         <small>
-          This project was coded by Roksolana Woloszyn and is open-sourced{" "}
+          This project was coded by Roksolana Woloszyn and is open-sourced {""}
           <a
             href="https://github.com/rokwol/weather-search-react-app"
             target="_blank"
