@@ -53,7 +53,7 @@ export default function Weather(props) {
             </div>
             <div className="col-3">
               <input
-                type="Submit"
+                type="submit"
                 value="Search"
                 className="btn btn-outline-info w-100"
                 autoComplete="off"

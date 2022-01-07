@@ -34,15 +34,15 @@ export default function FormattedDate(props) {
   let second = props.date.getSeconds();
 
   if (second < 10) {
-    return (second = `0${second}`);
+    second = `0${second}`;
   }
 
   if (minute < 10) {
-    return (minute = `0${minute}`);
+    minute = `0${minute}`;
   }
 
   if (hour < 10) {
-    return (hour = `0${hour}`);
+    hour = `0${hour}`;
   }
   return (
     <div>
