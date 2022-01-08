@@ -6,13 +6,15 @@ html {
   min-height: 100%;
 }
 
-.App {
+.App .container {
   margin: 0 auto;
   max-width: 600px;
 }
 
 .App footer {
-  font-size: 13px;
+  margin-top: 20px;
+  font-size: 3vw;
+  color: rgb(203 221 233);
 }
 
 .App a {

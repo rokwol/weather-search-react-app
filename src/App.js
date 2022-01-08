@@ -1,5 +1,6 @@
 import "./App.css";
 import Weather from "./Weather";
+import WeatherFooter from "./WeatherFooter";
 
 export default function App() {
   return (
@@ -16,8 +17,10 @@ export default function App() {
             on Github.
           </a>
         </small>
-        <footer></footer>
       </div>
+      <footer>
+        <WeatherFooter />
+      </footer>
     </div>
   );
 }
