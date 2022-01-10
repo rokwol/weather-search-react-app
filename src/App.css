@@ -8,6 +8,7 @@ html {
 
 .App .container {
   margin: 0 auto;
+  margin-bottom: 40px;
   max-width: 600px;
 }
 
