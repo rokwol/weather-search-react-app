@@ -24,13 +24,6 @@
   line-height: 18px;
 }
 
-.Weather img {
-  height: 100px;
-  width: 100px;
-  display: inline;
-  vertical-align: top;
-}
-
 .Weather form .btn:hover {
   background-color: #3dbbe2;
   color: #ffffff;
@@ -49,4 +42,44 @@
   font-weight: 400;
   position: relative;
   top: -25px;
+}
+
+.Weather .weatherTodayIcon {
+  height: 100px;
+  width: 100px;
+  display: inline;
+  vertical-align: top;
+}
+
+.Weather .weatherTodayDetails {
+  padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .Weather form .btn,
+  .form-control {
+    font-size: 12px;
+  }
+
+  .Weather .weatherTodayDetails {
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .Weather .temperature {
+    line-height: 75px;
+  }
+
+  .Weather .weatherTodayIcon {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Weather form .form,
+  .button {
+    padding: 5px;
+    text-align: start;
+  }
 }
