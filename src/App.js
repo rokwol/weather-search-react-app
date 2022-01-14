@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/rokwol/weather-search-react-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             on Github.
           </a>
